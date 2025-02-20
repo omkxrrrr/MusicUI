@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Music Player',
       theme: ThemeData(
-        // Use the desired pink color as the primary color
         primarySwatch: Colors.pink, // Default pink color for the theme
         visualDensity: VisualDensity.adaptivePlatformDensity,
         colorScheme: ColorScheme.light(
