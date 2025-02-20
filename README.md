@@ -1,16 +1,57 @@
-# music_player_ui
+🎵 Flutter Music Player UI
 
-A new Flutter project.
+A simple Flutter-based music player UI that allows users to add songs, view song details, and control playback.
 
-## Getting Started
+📌 Features
 
-This project is a starting point for a Flutter application.
+Add songs with details (name, artist, year, and album cover)
 
-A few resources to get you started if this is your first Flutter project:
+View the list of songs
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Navigate to a "Now Playing" screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Play/Pause functionality
+
+Skip to the next or previous song
+
+🛠️ Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/flutter-music-player-ui.git
+
+Navigate to the project folder:
+
+cd flutter-music-player-ui
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+📂 Project Structure
+
+lib/
+│-- main.dart
+│-- screens/
+│   ├── home_screen.dart
+│   ├── now_playing_screen.dart
+│   ├── song_form_screen.dart
+│-- widgets/
+│   ├── song_tile.dart
+│-- assets/
+│   ├── images/
+│   ├── songs/
+
+🚀 Dependencies
+
+Ensure the following dependencies are added to your pubspec.yaml:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  file_picker: ^6.1.1
